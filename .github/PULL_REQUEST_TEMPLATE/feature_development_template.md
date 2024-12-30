@@ -1,24 +1,25 @@
-### Description
-<!-- Provide a concise description of the bug and how it has been fixed. Replace the text below with your content. -->
-- **Bug Description:** <!-- e.g., incorrect syntax, performance issue, incorrect results, unexpected behavior -->
-- **Root Cause Analysis:** <!-- Briefly explain the underlying issue -->
-- **Fix:** <!-- e.g., updated query, added index, corrected logic -->
+## Context
+- **Module Name**: <!-- [Brief name of the feature] -->
+- **Description**: <!-- [A short description of what the feature accomplishes] -->
 
-### Checklist
-- [ ] Query tested with representative data covering edge cases.
-- [ ] Performance impact assessed and optimization applied if needed.
-- [ ] Comments added to explain changes and rationale.
-- [ ] Unit tests updated or added (if applicable).
+## Related Issues
+- Closes/Resolves: <!-- #[issue-number] -->
+- Dependencies:
 
-### Testing Details
-<!-- Describe how the fix was tested. Replace the text below with your content. -->
-- **Test Cases:** <!-- List the scenarios used to validate the fix -->
-- **Environment:** <!-- Specify the database version, environment, or tools used (e.g., Oracle 19c, SQL Developer) -->
+## Changes Made
+- [ ] Added a new ORDS endpoints
+- [ ] Updated existing Oracle objects as a change request (Views, Procedure, Function, triggers etc.)
+- [ ] Modified existing scripts for optimization
 
-### Related Issues
-<!-- Link any related issues or tickets. Replace the text below with your content. -->
-- Fixes #[issue_number]
+## Checklist for opening PR
+- [ ] I have performed a DEV QA for all changes
+- [ ] I have performed a self-review of my code
+- [ ] API documentation generated / Updated (if applicable)
+- [ ] Changes have been reviewed for security vulnerabilities
+- [ ] If applicable, I have included screenshots
 
-### Reviewer Notes
-<!-- Highlight specific areas for reviewers to focus on. Replace the text below with your content. -->
-- <!-- e.g., edge cases, performance concerns, potential impacts -->
+## Screenshots, Recordings
+- <!-- Add Screenshots of the changes e.g. Payload / Response -->
+
+## Additional Notes
+- <!-- [Any additional information or context for the reviewers / QA / Release Engineer] -->
